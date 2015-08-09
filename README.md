@@ -1,8 +1,8 @@
-# Bash2REST API mock example
+## Bash2REST API mock example
 Using bash2rest it's very simple to mock a REST API with bash scripts and jq.  
 This is a very simple user data API.
 
-## Create a user
+# Create a user
 ```
 $ curl http://127.0.0.1:5000/users/ -d '{"name": "test user"}'
 {
@@ -12,7 +12,7 @@ $ curl http://127.0.0.1:5000/users/ -d '{"name": "test user"}'
 }
 ```
 
-## Get user
+# Get user
 ```
 $ curl http://127.0.0.1:5000/users/a5527b1efc3ab9f33c9684e13986fa59
 {
@@ -22,7 +22,7 @@ $ curl http://127.0.0.1:5000/users/a5527b1efc3ab9f33c9684e13986fa59
 }
 ```
 
-## Update user data
+# Update user data
 ```
 $ curl http://127.0.0.1:5000/users/a5527b1efc3ab9f33c9684e13986fa59 -XPUT -d '{"name": "new name of test user"}'
 {
@@ -33,7 +33,7 @@ $ curl http://127.0.0.1:5000/users/a5527b1efc3ab9f33c9684e13986fa59 -XPUT -d '{"
 }
 ```
 
-## Delete user
+# Delete user
 ```
 $ curl http://127.0.0.1:5000/users/a5527b1efc3ab9f33c9684e13986fa59 -XDELETE
 {
