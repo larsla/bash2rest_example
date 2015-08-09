@@ -22,4 +22,7 @@ if [ -n "$ID" ]; then
     echo '{"result": "error", "reason": "no such user"}' |jq .
     exit 1
   fi
+else
+  echo '{"result": "error", "reason": "no user id provided"}' |jq .
+  exit 1
 fi
