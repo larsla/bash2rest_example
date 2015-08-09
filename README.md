@@ -1,5 +1,5 @@
 # Bash2REST API mock example
-Using bash2rest it's very simple to mock a REST API with bash scripts an jq.  
+Using bash2rest it's very simple to mock a REST API with bash scripts and jq.  
 This is a very simple user data API.
 
 ## Create a user
